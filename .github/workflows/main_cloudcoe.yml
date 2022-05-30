@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'cloudcoe'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_66269E0A14004F09A61628050A19A88C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_286FC0B4115E4711A895F4D6DDF4A366 }}
           package: .
