@@ -1,10 +1,13 @@
+#!/usr/bin/env python
+print "Content-Type: text/html"
+print
+print """\
 <html>
-<head>
-<title>Example 1: Hello World</title>
-</head>
-<body bgcolor=white>
-<h1>
-<% response.write("Hello World") %>
-</h1>
-</body>
+ <head>
+  <title>Python - Hello World</title>
+ </head>
+ <body>
+  Hello World
+ </body>
 </html>
+"""
